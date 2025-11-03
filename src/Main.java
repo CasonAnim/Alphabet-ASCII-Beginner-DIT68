@@ -38,9 +38,8 @@ public class Main {
         }*/
 
 
-        int range = 8;
-        int n = range;
-        /*
+        int range = 5;
+
         Pattern.aPattern(range);
         Pattern.bPattern(range);
         Pattern.cPattern(range);
@@ -53,65 +52,20 @@ public class Main {
         Pattern.jPattern(range);
         Pattern.kPattern(range);
         Pattern.lPattern(range);
-*/
-        //Pattern.nPattern(range);
-
-        int rangeForloop = n/2
-        for (int i =1; i <= rangeForloop; i++) {
-
-
-            for (int j = i; j >= 1; j--) {
-
-                if (j==1){
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            for (int j = i; j <=rangeForloop ; j++) {
-                System.out.print(" ");
-
-            }
-            for (int j = i; j <=rangeForloop ; j++) {
-                //System.out.print(j);
-                if (j==rangeForloop){
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            for (int j = i; j >=2 ; j--) {
-
-                System.out.print(" ");
-            }
-            for (int j = i; j >= 2; j--) {
-
-                if (j==2){
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            for (int j = i; j <=rangeForloop-1 ; j++) {
-                System.out.print(" ");
-                /*if (j==1){
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }*/
-            }
-            for (int j = i; j <=rangeForloop ; j++) {
-                //System.out.print(j);
-                if (j==rangeForloop){
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println("");
-        }
-
-
+        Pattern.mPattern(range);
+        Pattern.nPattern(range);
+        Pattern.oPattern(range);
+        Pattern.pPattern(range);
+        Pattern.qPattern(range);
+        Pattern.rPattern(range);
+        Pattern.sPattern(range);
+        Pattern.tPattern(range);
+        Pattern.uPattern(range);
+        Pattern.vPattern(range);
+        Pattern.wPattern(range);
+        Pattern.xPattern(range);
+        Pattern.yPattern(range);
+        Pattern.zPattern(range);
 
 
         }
